@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diner Rent-to-Own Property | Space4Rent</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation Header -->
+    <header class="header">
+        <nav class="navbar">
+            <div class="container">
+                <div class="logo">Space4Rent</div>
+                <ul class="nav-links">
+                    <li><a href="#gallery">Gallery</a></li>
+                    <li><a href="#details">Details</a></li>
+                    <li><a href="#features">Features</a></li>
+                    <li><a href="#pricing">Pricing</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section with Slideshow -->
+    <section class="hero" id="gallery">
+        <div class="slideshow-container">
+            <div class="slide fade">
+                <img src="https://via.placeholder.com/1200x600/C41E3A/FFFFFF?text=Diner+Exterior" alt="Diner Exterior">
+                <div class="slide-caption">Premium Diner - Exterior View</div>
+            </div>
+            <div class="slide fade">
+                <img src="https://via.placeholder.com/1200x600/D4A574/000000?text=Interior+Dining" alt="Interior Dining Area">
+                <div class="slide-caption">Spacious Interior Dining Area</div>
+            </div>
+            <div class="slide fade">
+                <img src="https://via.placeholder.com/1200x600/8B6914/FFFFFF?text=Commercial+Kitchen" alt="Commercial Kitchen">
+                <div class="slide-caption">Full Commercial Kitchen</div>
+            </div>
+            <div class="slide fade">
+                <img src="https://via.placeholder.com/1200x600/2C3E50/FFFFFF?text=Bar+Area" alt="Bar Area">
+                <div class="slide-caption">Bar & Beverage Service Area</div>
+            </div>
+            <div class="slide fade">
+                <img src="https://via.placeholder.com/1200x600/E8E8E8/333333?text=Seating+Area" alt="Seating Area">
+                <div class="slide-caption">Comfortable Seating - 80 Capacity</div>
+            </div>
+            <div class="slide fade">
+                <img src="https://via.placeholder.com/1200x600/34495E/FFFFFF?text=Private+Booth" alt="Private Booths">
+                <div class="slide-caption">Private Booth Seating</div>
+            </div>
+            <div class="slide fade">
+                <img src="https://via.placeholder.com/1200x600/95A5A6/000000?text=Restroom+Facility" alt="Modern Restrooms">
+                <div class="slide-caption">Modern Restroom Facilities</div>
+            </div>
+            <div class="slide fade">
+                <img src="https://via.placeholder.com/1200x600/BDC3C7/333333?text=Parking+Area" alt="Parking Area">
+                <div class="slide-caption">Ample Parking - 15 Spaces</div>
+            </div>
+
+            <!-- Navigation Arrows -->
+            <a class="prev" onclick="changeSlide(-1)">&#10094;</a>
+            <a class="next" onclick="changeSlide(1)">&#10095;</a>
+
+            <!-- Dots for slide indicators -->
+            <div class="dots-container">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+                <span class="dot" onclick="currentSlide(4)"></span>
+                <span class="dot" onclick="currentSlide(5)"></span>
+                <span class="dot" onclick="currentSlide(6)"></span>
+                <span class="dot" onclick="currentSlide(7)"></span>
+                <span class="dot" onclick="currentSlide(8)"></span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Main Content -->
+    <div class="container">
+        <!-- Title Section -->
+        <section class="title-section">
+            <h1>Premium Diner - Rent-to-Own Opportunity</h1>
+            <p class="subtitle">Established, High-Traffic Location | Ready for Immediate Operations</p>
+            <div class="price-badge">
+                <span class="label">Monthly Rent</span>
+                <span class="price">$4,500</span>
+            </div>
+        </section>
+
+        <!-- Quick Details -->
+        <section class="quick-details" id="details">
+            <div class="detail-grid">
+                <div class="detail-card">
+                    <div class="detail-icon">📍</div>
+                    <h3>Location</h3>
+                    <p>Prime Downtown Location</p>
+                    <p class="detail-text">High foot traffic, easy access</p>
+                </div>
+                <div class="detail-card">
+                    <div class="detail-icon">📐</div>
+                    <h3>Space</h3>
+                    <p>2,500 sq ft</p>
+                    <p class="detail-text">Fully renovated in 2023</p>
+                </div>
+                <div class="detail-card">
+                    <div class="detail-icon">👥</div>
+                    <h3>Capacity</h3>
+                    <p>80 Seated</p>
+                    <p class="detail-text">15 parking spaces included</p>
+                </div>
+                <div class="detail-card">
+                    <div class="detail-icon">⏰</div>
+                    <h3>Hours</h3>
+                    <p>Flexible Operating Hours</p>
+                    <p class="detail-text">Open 7 days a week recommended</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Features Section -->
+        <section class="features" id="features">
+            <h2>Premium Features & Amenities</h2>
+            <div class="features-grid">
+                <div class="feature-item">
+                    <span class="feature-icon">🍽️</span>
+                    <h3>Full Service Dining</h3>
+                    <p>Complete diner setup with counter service and table dining</p>
+                </div>
+                <div class="feature-item">
+                    <span class="feature-icon">👨‍🍳</span>
+                    <h3>Commercial Kitchen</h3>
+                    <p>State-of-the-art equipment including 6-burner stove, fryer, and grill</p>
+                </div>
+                <div class="feature-item">
+                    <span class="feature-icon">🧊</span>
+                    <h3>Beverage Service</h3>
+                    <p>Fully stocked bar with soda fountain and coffee station</p>
+                </div>
+                <div class="feature-item">
+                    <span class="feature-icon">📱</span>
+                    <h3>POS System</h3>
+                    <p>Modern point-of-sale system included with training</p>
+                </div>
+                <div class="feature-item">
+                    <span class="feature-icon">💡</span>
+                    <h3>Modern Lighting</h3>
+                    <p>LED lighting throughout with ambient and task lighting</p>
+                </div>
+                <div class="feature-item">
+                    <span class="feature-icon">❄️</span>
+                    <h3>Climate Control</h3>
+                    <p>Advanced HVAC system with separate zone controls</p>
+                </div>
+                <div class="feature-item">
+                    <span class="feature-icon">🔒</span>
+                    <h3>Security System</h3>
+                    <p>24/7 surveillance with motion detection and alarm</p>
+                </div>
+                <div class="feature-item">
+                    <span class="feature-icon">♿</span>
+                    <h3>ADA Compliant</h3>
+                    <p>Fully accessible restrooms and entrances</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Rent-to-Own Details -->
+        <section class="rent-to-own" id="pricing">
+            <h2>Rent-to-Own Program Details</h2>
+            <div class="pricing-container">
+                <div class="pricing-card">
+                    <h3>Program Structure</h3>
+                    <ul class="pricing-list">
+                        <li>✓ 5-Year Rent-to-Own Agreement</li>
+                        <li>✓ Monthly Payment: $4,500</li>
+                        <li>✓ 25% of Monthly Rent Applied to Purchase</li>
+                        <li>✓ Purchase Price: $350,000</li>
+                        <li>✓ Down Payment Required: $25,000 (5%)</li>
+                        <li>✓ Ownership Transfer Upon Final Payment</li>
+                    </ul>
+                </div>
+                <div class="pricing-card">
+                    <h3>What's Included</h3>
+                    <ul class="pricing-list">
+                        <li>✓ Building lease (5 years)</li>
+                        <li>✓ All equipment and furnishings</li>
+                        <li>✓ POS system and training</li>
+                        <li>✓ Initial inventory (food & beverage)</li>
+                        <li>✓ Staff training program</li>
+                        <li>✓ Operational support</li>
+                    </ul>
+                </div>
+                <div class="pricing-card">
+                    <h3>Your Responsibilities</h3>
+                    <ul class="pricing-list">
+                        <li>✓ Utilities (Est. $800/month)</li>
+                        <li>✓ Insurance (Est. $300/month)</li>
+                        <li>✓ Staffing & payroll</li>
+                        <li>✓ Inventory replenishment</li>
+                        <li>✓ Business licenses & permits</li>
+                        <li>✓ Day-to-day operations</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Financial Overview -->
+        <section class="financial-overview">
+            <h2>Financial Projection Overview</h2>
+            <div class="financial-grid">
+                <div class="financial-item">
+                    <h4>Monthly Revenue Potential</h4>
+                    <p class="financial-value">$22,000 - $28,000</p>
+                    <p class="financial-detail">Based on 80 covers × $35 avg check × 8 days</p>
+                </div>
+                <div class="financial-item">
+                    <h4>Monthly Expenses (Estimated)</h4>
+                    <p class="financial-value">$14,500 - $16,500</p>
+                    <p class="financial-detail">Rent ($4,500) + Staff + Inventory + Utilities</p>
+                </div>
+                <div class="financial-item">
+                    <h4>Potential Monthly Profit</h4>
+                    <p class="financial-value">$5,500 - $13,500</p>
+                    <p class="financial-detail">Variable based on operational efficiency</p>
+                </div>
+                <div class="financial-item">
+                    <h4>Total Program Cost</h4>
+                    <p class="financial-value">$270,000</p>
+                    <p class="financial-detail">Down payment ($25k) + 5 years of rent ($225k)</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="contact-section" id="contact">
+            <h2>Schedule Your Tour Today</h2>
+            <div class="contact-container">
+                <div class="contact-info">
+                    <h3>Get More Information</h3>
+                    <div class="info-item">
+                        <span class="info-icon">📞</span>
+                        <div>
+                            <p class="info-label">Phone</p>
+                            <p class="info-value">(555) 123-4567</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <span class="info-icon">✉️</span>
+                        <div>
+                            <p class="info-label">Email</p>
+                            <p class="info-value">info@space4rent.com</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <span class="info-icon">📍</span>
+                        <div>
+                            <p class="info-label">Address</p>
+                            <p class="info-value">123 Main Street, Downtown</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <span class="info-icon">🕐</span>
+                        <div>
+                            <p class="info-label">Hours</p>
+                            <p class="info-value">Mon-Fri: 9am - 6pm | Sat: 10am - 4pm</p>
+                        </div>
+                    </div>
+                </div>
+                <form class="contact-form">
+                    <div class="form-group">
+                        <input type="text" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="tel" placeholder="Your Phone">
+                    </div>
+                    <div class="form-group">
+                        <textarea placeholder="Your Message" rows="4"></textarea>
+                    </div>
+                    <button type="submit" class="btn-submit">Request Information</button>
+                </form>
+            </div>
+        </section>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Space4Rent - Diner Rent-to-Own Program. All rights reserved.</p>
+            <p>This is a professional property listing. Terms and conditions apply.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
